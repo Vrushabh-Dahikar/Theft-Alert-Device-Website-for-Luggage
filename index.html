@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luggage Guard</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="start-page">
+        <h1>Are you traveling?</h1>
+        <button id="yes-button">Yes</button>
+        <button id="no-button">No</button>
+    </div>
+    <div id="safe-page" class="hidden">
+        <h1>Luggage is Safe</h1>
+    </div>
+    <div id="alert-page" class="hidden">
+        <h1>Luggage Disconnected</h1>
+    </div>
+    <audio id="alert-audio" src="alert.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
